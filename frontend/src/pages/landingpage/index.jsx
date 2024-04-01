@@ -8,7 +8,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Projects from "../../components/projects/Projects";
 import Resume from "../../components/resume/Resume";
 import Testimonial from "../../components/tesimonial/Testimonial";
-import Blog from "../../components/blog/Blog";
+// import Blog from "../../components/blog/Blog";
 
 const LandingPage = () => {
   return (
@@ -17,7 +17,7 @@ const LandingPage = () => {
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Features />
-        <Blog/>
+        {/* <Blog/> */}
         <Projects />
         <Resume />
         <Testimonial />

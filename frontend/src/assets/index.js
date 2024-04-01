@@ -1,5 +1,7 @@
 import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
+import ellah from "./images/ELLAH.jpg";
+import ellahLogo from "./images/ellahlogo.png"
+import ellahLogo2 from "./images/ellahlogo2.png"
 import projectOne from "./images/projects/projectOne.png";
 import projectTwo from "./images/projects/projectTwo.png";
 import projectThree from "./images/projects/projectThree.png";
@@ -10,7 +12,9 @@ import contactImg from "./images/contact/contactImg.png";
 
 export {
   logo,
-  bannerImg,
+  ellah,
+  ellahLogo,
+  ellahLogo2,
   projectOne,
   projectTwo,
   projectThree,

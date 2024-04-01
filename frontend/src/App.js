@@ -9,6 +9,8 @@ import AllSKills from "./pages/admin_dashboard/alldetails/all_skills.jsx";
 import React, { useEffect, useState } from "react";
 import LandingPage from "./pages/landingpage/index.jsx";
 import Loader from "./components/loader/Loader.jsx";
+import Ring from "./components/3d/Ring.jsx";
+import Try3d from "./components/3d/Try3d.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
@@ -18,7 +20,9 @@ const router = createBrowserRouter([
   { path: "/addblog", element: <AddBlog /> },
   { path: "/skills/:id", element: <EditSkill /> },
   { path: "/achievements/:id", element: <EditAchievement /> },
-  { path: "/skills", element: <AllSKills /> }
+  { path: "/skills", element: <AllSKills /> },
+  {path: "/ring", element: <Ring/>},
+  {path: "/ring/try3d", element: <Try3d/>}
 ]);
 
 function App() {
@@ -28,7 +32,7 @@ function App() {
   useEffect(() =>{
     setTimeout(() =>{
       setLoading(false);
-    }, 3000)
+    }, 5000)
   }, [])
 
   return (
