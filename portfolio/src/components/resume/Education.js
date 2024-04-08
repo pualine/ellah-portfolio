@@ -11,11 +11,11 @@ const Education = () => {
     >
       {/* part one */}
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4 mx-auto justify-center items-center">
           <p className="text-sm text-designColor tracking-[4px]">2014 - 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-[fit-content] max-w-[80%] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 mx-auto justify-center items-center">
           <ResumeCard
             title="BlueCrest University College, Ghana (Nov.2019 - Dec.2022)"
             subTitle="BSc in Information Technology"

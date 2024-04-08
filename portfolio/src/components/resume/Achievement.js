@@ -9,55 +9,47 @@ const Achievement = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="py-12 font-titleFont flex gap-20"
     >
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Company Experience</h2>
+      <div className="">
+        <div className="py-12 font-titleFont flex flex-col gap-4 mx-auto justfy-center items-center">
+          <p className="text-sm text-designColor tracking-[4px]">Features</p>
+          <h2 className="text-4xl font-bold">Achievements</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-[fit-content] max-w-[80%] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 mx-auto justify-center items-center">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Best Team Lead. -  iSpace Foundation September, 20219"
+            subTitle="UI/UX Design, Graphic Design, and Web Development Bootcamp."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Worked on designing logos, cover page, flyers, posters and albulm design for clients"
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Community Empowerment Volunteer. - October 2022, Central Region, Ghana"
+            subTitle="Basic IT Skills Training."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="supported THE BUILDERS FOUNDATION, GHANA to empower and equip young people in
+            underserved communities through practical basic IT training, fostering digital literacy and bridging the digital divide."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Founder of Young Developers Hub. - July 2019-present Accra-Ghana"
+            subTitle="A Tech Community."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Dedicated to inspiring and equipping young individuals, especially women, who possess
+            limited or no background in technology, to acquire fundamental tech skills. The goal is to foster self-development and provide
+            access to opportunities within the tech space"
           />
-        </div>
-      </div>
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+           <ResumeCard
+            title="Girls Excellent Movement (GEM). - September 2022 - present"
+            subTitle="Girls Advocacy Initiative."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Mentored more than 150 young girls in Senior High Schools, fostering a growth mindset for
+            self-development and academic advancement"
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Africa Digital Skills Conference Trainer - Volunteer . - November 2021 Accra-Ghana
+            "
+            subTitle="Digital Skills Training."
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Conducted Microsoft Excel training sessions, promoting digital literacy and
+            empowering individuals in Ghana and Africa."
           />
         </div>
       </div>
