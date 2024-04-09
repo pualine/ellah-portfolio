@@ -23,18 +23,18 @@ const Projects = () => {
           websiteLink="https://girdghana.com"
         />
         <ProjectsCard
+          title="T-FLIX"
+          des="A movie app that provides comfort, ease of streaming and affordable packages for all users"
+          src={projectTwo}
+          githubLink="https://github.com/EaineDan/TAAP-TFLIX"
+          websiteLink="https://taap-tflix.vercel.app/"
+        />
+        <ProjectsCard
           title="AgroBiz"
           des="An Ecommerce Agro website with guaranteed user-experience, shopping ease and high quality all-natural produce. "
           src={projectOne}
           githubLink="https://github.com/yourgithublinkhere"
           websiteLink="https://agrobiz.com"
-        />
-        <ProjectsCard
-          title="T-FLIX"
-          des="A movie app that provides comfort, ease of streaming and affordable packages for all users"
-          src={projectTwo}
-          githubLink="https://github.com/EaineDan/TAAP-TFLIX"
-          websiteLink="taap-tflix.vercel.app"
         />
       </div>
     </section>
