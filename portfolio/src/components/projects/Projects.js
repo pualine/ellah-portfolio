@@ -1,9 +1,8 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { project3, projectOne, projectTwo } from "../../assets";
+import { baddak, project3, projectOne, projectTwo, trendvibe } from "../../assets";
 import ProjectsCard from "./ProjectsCard";
-import { BsGithub } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa";
+
 
 const Projects = () => {
   return (
@@ -21,6 +20,20 @@ const Projects = () => {
           src={project3}
           githubLink="#"
           websiteLink="https://girdghana.com"
+        />
+        <ProjectsCard
+          title="TrendVibe - Social Media Web App"
+          des="A social media web application that allow information sharing, saving post for later reference, exploring various post by searching. User can edit their own post, profile nad view others. Users must sign in before using the app."
+          src={trendvibe}
+          githubLink="https://github.com/pualine/TrendVibe_socialMedia_app"
+          websiteLink="https://trendvibe.vercel.app/"
+        />
+         <ProjectsCard
+          title="Badak Admin Portal"
+          des="Admin portal to verify the identity of past students in the process of traveling abroad. This portal checks and displays whether or not the  user is verified"
+          src={baddak}
+          githubLink="https://github.com/theophilusnuer/badak_admin_panel"
+          websiteLink="https://badak-admin-panel.vercel.app/"
         />
         <ProjectsCard
           title="T-FLIX"
