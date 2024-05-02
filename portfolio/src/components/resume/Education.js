@@ -37,6 +37,13 @@ const Education = () => {
             result="***"
             des="Relevant Courses: Figma Degin, Graphic Design, Logo Design - Adobe Photoshop CS6"
           />
+          <ResumeCard
+            title="Institute of Chartered Accountants, Ghana (May. 2016 - Present)/(Sept. 2014 - Sept. 2015)"
+            subTitle="Qualified Accountant"
+            result="***"
+            des="Relevant Courses: Financial Reporting, Financial Management, Financial Auditing and Reporting, Corporate Strategy,
+            Business Law II, Public Sector Accounting, Tax Computation and Returns, Cost Accounting."
+          />
         </div>
       </div>
       {/* part Two */}
